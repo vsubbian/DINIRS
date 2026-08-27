@@ -2,12 +2,6 @@
 
 This repository provides the reproducible workflow for DINIRS, a censoring-aware digital twin framework that estimates individualized treatment effects (ITEs) of non-invasive respiratory support (NIRS) versus invasive mechanical ventilation (IMV) in acute respiratory failure. Models are developed on **MIMIC-IV v3.1** and externally validated on **eICU-CRD**. 
 
-## Citation
-
-If you use this work, please cite:
-
-Islam MF, Mosier J, Subbian V. DINIRS: Digital Twin for Individualized Treatment Effects of Non-Invasive Respiratory Support Strategies. *Under review*.
-
 ## 📁 Repository Structure
 
 | File | Description |
@@ -64,6 +58,13 @@ Run `DINIRS.ipynb` from top to bottom. The workflow proceeds through the followi
 8. **Figures and export**: all figures reported in the manuscript.
 
 Extraction results will be cached under `output/` on first run. Subsequent runs re-use the cache. Please set `FORCE_EXTRACT_MIMIC`, `FORCE_EXTRACT_EICU`, or `FORCE_RETRAIN` to `True` in the configuration cell to regenerate from source.
+
+## Citation
+
+If you use this work, please cite: 
+
+Islam MF, Mosier J, Subbian V. DINIRS: Digital Twin for Individualized Treatment Effects of Non-Invasive Respiratory Support Strategies. *Under review*.
+
 
 ## 📌 Dependencies
 
