@@ -61,10 +61,9 @@ Extraction results will be cached under `output/` on first run. Subsequent runs 
 
 ## Citation
 
-If you use this work, please cite: 
+If you use this work, please cite the preprint:
 
-Islam MF, Mosier J, Subbian V. DINIRS: Digital Twin for Individualized Treatment Effects of Non-Invasive Respiratory Support Strategies. *Under review*.
-
+Islam MF, Mosier J, Subbian V. DINIRS: Digital Twin for Individualized Treatment Effects of Non-Invasive Respiratory Support Strategies. arXiv. Preprint posted online August 27, 2026. [doi:10.48550/arXiv.2608.26915](https://doi.org/10.48550/arXiv.2608.26915)
 
 ## 📌 Dependencies
 
