@@ -6,7 +6,7 @@ This repository provides the reproducible workflow for DINIRS, a censoring-aware
 
 | File | Description |
 | --- | --- |
-| `DINIRS.ipynb` | Jupyter notebook implementing the end-to-end workflow: configuration, BigQuery extraction, cross-fitted training, evaluation, and figures. |
+| `DINIRS.ipynb` | Jupyter notebook implementing the end-to-end workflow |
 | `models/dinirs.py` | DINIRS model: survival encoder with attention gate, counterfactual generator, discriminator, and doubly robust ITE predictor. |
 | `models/baselines.py` | Tree-based baselines (T-Learner, causal forest, causal survival forest) and the cross-fitted tree base for the doubly robust learner. |
 | `models/ensemble.py` | Cross-validated ensemble producing the out-of-fold DINIRS estimate. |
@@ -15,8 +15,6 @@ This repository provides the reproducible workflow for DINIRS, a censoring-aware
 | `utils/metrics.py` | Evaluation metrics, doubly robust policy value, and sensitivity analyses. |
 | `utils/generalization.py` | Cross-fitting, seed-stability, and subgroup evaluation. |
 | `utils/mice.py` | Multiple imputation by chained equations with predictive mean matching. |
-| `requirements.txt` | Python package requirements. |
-| `README.md` | Project overview, setup instructions, and reproducibility notes. |
 
 ## 📦 Getting Started
 
@@ -55,7 +53,6 @@ Run `DINIRS.ipynb` from top to bottom. The workflow proceeds through the followi
 5. **Baselines and ensemble**: T-Learner, causal forest, and causal survival forest comparisons.
 6. **Clinical impact**: policy value, subgroup analyses, and multiple imputation with Rubin's rules.
 7. **External validation**: the MIMIC-trained fold models applied unchanged to eICU-CRD.
-8. **Figures and export**: all figures reported in the manuscript.
 
 Extraction results will be cached under `output/` on first run. Subsequent runs re-use the cache. Please set `FORCE_EXTRACT_MIMIC`, `FORCE_EXTRACT_EICU`, or `FORCE_RETRAIN` to `True` in the configuration cell to regenerate from source.
 
@@ -82,4 +79,4 @@ For questions or collaboration inquiries, please contact:
 Md Fantacher Islam
 PhD Student, Systems and Industrial Engineering
 University of Arizona
-Email: [fantacher@arizona.edu]
+Email: <fantacher@arizona.edu>
