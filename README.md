@@ -76,6 +76,5 @@ A CUDA-capable GPU is optional; the notebook falls back to CPU automatically.
 For questions or collaboration inquiries, please contact:
 
 Md Fantacher Islam  
-PhD Student, Systems and Industrial Engineering  
 University of Arizona  
 Email: <fantacher@arizona.edu>
