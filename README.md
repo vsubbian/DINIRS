@@ -73,10 +73,9 @@ pip install -r requirements.txt
 A CUDA-capable GPU is optional; the notebook falls back to CPU automatically.
 
 ## 📬 Contact
-
 For questions or collaboration inquiries, please contact:
 
-Md Fantacher Islam
-PhD Student, Systems and Industrial Engineering
-University of Arizona
+Md Fantacher Islam  
+PhD Student, Systems and Industrial Engineering  
+University of Arizona  
 Email: <fantacher@arizona.edu>
