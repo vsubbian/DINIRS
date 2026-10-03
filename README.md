@@ -54,14 +54,6 @@ Run `DINIRS.ipynb` from top to bottom. The workflow proceeds through the followi
 6. **Clinical impact**: policy value, subgroup analyses, and multiple imputation with Rubin's rules.
 7. **External validation**: the MIMIC-trained fold models applied unchanged to eICU-CRD.
 
-Extraction results will be cached under `output/` on first run. Subsequent runs re-use the cache. Please set `FORCE_EXTRACT_MIMIC`, `FORCE_EXTRACT_EICU`, or `FORCE_RETRAIN` to `True` in the configuration cell to regenerate from source.
-
-## Citation
-
-If you use this work, please cite the preprint:
-
-Islam MF, Mosier J, Subbian V. DINIRS: Digital Twin for Individualized Treatment Effects of Non-Invasive Respiratory Support Strategies. arXiv. Preprint posted online August 27, 2026. [doi:10.48550/arXiv.2608.26915](https://doi.org/10.48550/arXiv.2608.26915)
-
 ## 📌 Dependencies
 
 This repository is implemented using Python 3.13 and requires the packages in `requirements.txt`:
